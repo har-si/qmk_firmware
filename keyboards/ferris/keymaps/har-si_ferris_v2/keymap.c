@@ -96,9 +96,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [MSE] = LAYOUT(
     KC_ESC,    __x__,      __x__,     __x__,      __x__,               KC_WH_L,    KC_WH_D,    KC_WH_U,    KC_WH_R,     KC_INS,
-    KC_LCTL,   KC_LGUI,    KC_LALT,  KC_LSFT,    KC_ALGR,              KC_MS_L,    KC_MS_D,    KC_MS_U,    KC_MS_R,     KC_APP,
-    TO_MSE,    KC_ACL2,    KC_ACL1,  KC_ACL0,    __x__,                KC_BTN3,    MC_CUT,     MC_COPY,    MC_PASTE,    KC_DEL,
-                                             KC_TRNS, KC_TRNS, KC_BTN1, KC_BTN2
+    KC_LCTL,   KC_LGUI,    KC_LALT,  KC_LSFT,    KC_ALGR,              KC_MS_L,    KC_MS_D,    KC_MS_U,    KC_MS_R,     KC_BTN2,
+    TO_MSE,    KC_ACL2,    KC_ACL1,  KC_ACL0,    __x__,                KC_BTN3,    MC_CUT,     MC_COPY,    MC_PASTE,    KC_ENT,
+                                             KC_TRNS, KC_TRNS, KC_BTN1, KC_DEL
   ),
 
   [NAVL] = LAYOUT(
@@ -119,9 +119,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [MSEL] = LAYOUT(
     KC_ESC,    __x__,    __x__,     __x__,      __x__,                KC_WH_L,    KC_WH_D,    KC_WH_U,    KC_WH_R,     KC_INS,
-    KC_LCTL,   KC_LGUI,  KC_LALT,   KC_LSFT,    KC_ALGR,              KC_MS_L,    KC_MS_D,    KC_MS_U,    KC_MS_R,     KC_APP,
-    __x__,     KC_ACL2,  KC_ACL1,   KC_ACL0,    __x__,                KC_BTN3,    MC_CUT,     MC_COPY,    MC_PASTE,    KC_DEL,
-                                             TO_BSE, KC_ACL1, KC_BTN1, KC_BTN2
+    KC_LCTL,   KC_LGUI,  KC_LALT,   KC_LSFT,    KC_ALGR,              KC_MS_L,    KC_MS_D,    KC_MS_U,    KC_MS_R,     KC_BTN2,
+    __x__,     KC_ACL2,  KC_ACL1,   KC_ACL0,    __x__,                KC_BTN3,    MC_CUT,     MC_COPY,    MC_PASTE,    KC_ENT,
+                                             TO_BSE, KC_ACL1, KC_BTN1, KC_DEL
   ),
 
 
