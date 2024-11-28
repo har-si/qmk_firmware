@@ -355,15 +355,15 @@ void matrix_scan_user(void) {
       layer_off(NUML);    // Turnoff Number layer Lock
     }
   }
-  if (get_highest_layer(layer_state) == MSE) {
+  if (get_highest_layer(layer_state) == MSEL) {
     if (last_input_activity_elapsed() > LAYER_TIMEOUT) {
-      layer_off(MSE);    // Turnoff Number layer Lock
+      layer_off(MSEL);    // Turnoff Number layer Lock
     }
   }
 
 }
 */
-
+// Uncomment also the #define LAYER_TIMEOUT 60000 above 
 
 
 
